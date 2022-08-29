@@ -1,14 +1,12 @@
+import React from 'react';
+import NavBar from "./componentes/Navbar";
 
 
 function App() {
   return (
-    
-    <div className="App">
-      <p>
-        Hola, esta es la primera entrega del curso de React.js
-      </p>
-    </div>
-
+    <React.Fragment>
+      <NavBar/>
+    </React.Fragment>
   );
 }
 
